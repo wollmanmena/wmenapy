@@ -1,0 +1,15 @@
+venv\Scripts\activate
+Windows Powershell – “Running scripts is disabled on this system”
+    Run shell as Administrator.
+    > Get-ExecutionPolicy
+    > Set-ExecutionPolicy remoteSigned
+    Done.
+    To Undo
+    > Set-ExecutionPolicy restricted
+
+
+
+$env:FLASK_APP = "flaskr"
+$env:FLASK_ENV = "development"
+flask run
+
